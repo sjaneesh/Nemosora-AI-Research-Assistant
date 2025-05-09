@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS queries (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    query TEXT NOT NULL,
+    category TEXT,
+    response TEXT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP);
